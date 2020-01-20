@@ -4,7 +4,7 @@
   "description": "random de mensajes",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "keywords": [
     "javaScript",
@@ -12,5 +12,10 @@
     "npm"
   ],
   "author": "Miguel Angel Muñoz Pozos",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {}
 }
