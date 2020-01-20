@@ -14,8 +14,16 @@
   "author": "Miguel Angel Muñoz Pozos",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
   "preferGlobal": true,
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelAngelMP/random-messages-miguel-angel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiguelAngelMP/random-messages-miguel-angel/issues"
+  },
+  "homepage": "https://github.com/MiguelAngelMP/random-messages-miguel-angel#readme"
 }
